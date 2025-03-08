@@ -1,7 +1,3 @@
-# STEDI-Human-Balance-Analytics
-
-![image](https://github.com/user-attachments/assets/6c8141f2-129a-4062-a282-42a5d929d2f8)
-
 # AWS Lakehouse Solution for STEDI
 
 ## Purpose
@@ -11,6 +7,7 @@ This project demonstrates the implementation of a **Lakehouse Solution** on AWS,
 ### Architecture Overview
 
 The architecture follows a **three-zone approach**:
+![image](https://github.com/user-attachments/assets/6c8141f2-129a-4062-a282-42a5d929d2f8)
 
 1. **Landing Zone** – Raw data is ingested into this zone, stored in Amazon S3, and prepared for further processing.
 2. **Trusted Zone** – The data is sanitized, filtering records from customers who consented to share their data for research purposes.
